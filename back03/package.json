@@ -1,0 +1,25 @@
+{
+  "name": "fullstack03",
+  "version": "1.0.0",
+  "description": "Пет проект",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "project"
+  ],
+  "author": "Rinat Mavlyutov <mavlyutov-1999@inbox.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.1.0"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
